@@ -1,7 +1,7 @@
 {
   "name": "hidros",
   "version": "0.2.1",
-  "homepage": "http://pretz23jer.github.io/app.io",
+  "homepage": "http://pretz23jer.github.io/app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -19,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
