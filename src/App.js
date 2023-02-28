@@ -1,4 +1,4 @@
-import AppRouters from "./Routers/AppRouters";
+import InicioPrincipal from '../src/Pages/Inicio';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <AppRouters />
+    <InicioPrincipal />
   );
 }
 
