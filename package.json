@@ -1,8 +1,8 @@
 {
   "name": "hidros",
   "version": "0.2.1",
-  "homepage": "https://pretz23jer.github.io/app-hidrocompras/",
-  "private": false,
+  "homepage": ".",
+  "private": "true",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
