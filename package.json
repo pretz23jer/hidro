@@ -1,7 +1,7 @@
 {
   "name": "hidros",
   "version": "0.2.1",
-  "homepage": "https://github.com/pretz23jer/app.io.git",
+  "homepage": "http://pretz23jer.github.io/app.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -10,6 +10,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
