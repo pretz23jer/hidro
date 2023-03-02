@@ -1,7 +1,7 @@
 {
   "name": "hidros",
   "version": "0.2.1",
-  "homepage": ".",
+  "homepage": "https://www.hidrocompras.com/",
   "private": "true",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
