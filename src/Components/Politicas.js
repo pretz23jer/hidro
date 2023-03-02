@@ -10,9 +10,13 @@ class Politicas extends Component{
                 <Menu />
                 <img src={Imggeneral} className="img-fluid" alt="Imagen Hidro" />
                 <div className="container-fluid text-center">
-                    <p className="marcasEstilo">Sección Políticas</p>
                     <div className="text-center padreLineaAzul">
                         <div className="lineaAzul"></div>
+                    </div>
+                </div>
+                <div className="fondoCelesteDemo">
+                    <div className="text-white text-center">
+                        <p className="fw-bold fs-1 h1 pt-3 pb-3">Nuestras políticas <br /> &#128526;</p>
                     </div>
                 </div>
                 <Footer />

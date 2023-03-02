@@ -15,6 +15,11 @@ class Demo extends Component{
                         <div className="lineaAzul"></div>
                     </div>
                 </div>
+                <div className="fondoCelesteDemo">
+                    <div className="text-white text-center">
+                        <p className="fw-bold fs-1 h1">Solicita ti Demo</p>
+                    </div>
+                </div>
                 <Footer />
             </div>
         )

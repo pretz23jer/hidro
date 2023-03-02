@@ -20,9 +20,12 @@ import Marca12 from '../Resources/PENTAIR.png';
 import PlayStore from '../Resources/googleplay.png';
 import AppStore from '../Resources/appstore.png';
 import Iphone from '../Resources/iphone2.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Monedas extends Component{
     render() {
+        AOS.init();
         let longImg = '100';
 
         function cambiar(x) {
@@ -49,7 +52,7 @@ class Monedas extends Component{
                     <img className="d-block w-100"  src={Baner3} alt="Third slide" alt="Imagen Hidro" />
                     </Carousel.Item>
                 </Carousel>
-                <div className="fondoBeigeDos pt-5 pb-5">
+                <div className="fondoBeigeDos pt-5 pb-5" data-aos="flip-down">
                     <div className="container mt-4">
                         <p className="h1 monedaTexto">¿Qué son los Hidro Monedas  _____________________________</p>
                         <p className="h4 pt-4 pb-4">No son puntos, son monedas <img src={Logo} height="40" alt="Imagen Hidro" /></p>
@@ -77,12 +80,12 @@ class Monedas extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className="container pt-4 pb-4">
+                    <div className="container pt-4 pb-4" data-aos="flip-down">
                         <p className="h2 fw-bold">¿Cómo ganar Hidro Monedas? __________________________________</p>
                         <p className="h4 mt-4 pt-3 pb-5 mb-5"> ¡Tienes 3 formas de ganarlos! Los Hidro Monedas son como el efectivo que puedes usar para adquirir lo que más te gusta. Elige la opción que prefieras y obtén tus Hidro Monedas ahora..</p>
                         <div className="cajaGris">
                             <div className="row">
-                                <div className="col-12 col-lg-4 mb-1">
+                                <div className="col-12 col-lg-4 mb-1" data-aos="flip-down">
                                     <div className="CajaCompras">
                                         <p className="fw-bold h4 text-black pt-4 pb-4">Aquiere las siguientes marcas Hidro Bombas</p>
                                         <div className="row pb-4">
@@ -101,7 +104,7 @@ class Monedas extends Component{
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-lg-4 mb-1">
+                                <div className="col-12 col-lg-4 mb-1" data-aos="flip-down">
                                     <div className="CajaCompras">
                                         <p className="fw-bold h4 text-black pt-4 pb-4">Aquiere las siguientes marcas Hidro Materiales</p>
                                         <div className="row pb-4">
@@ -120,7 +123,7 @@ class Monedas extends Component{
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-lg-4 mb-1">
+                                <div className="col-12 col-lg-4 mb-1" data-aos="flip-down">
                                     <div className="CajaCompras">
                                         <p className="fw-bold h4 text-black pt-4 pb-4">Aquiere las siguientes marcas Hidro Accesorios</p>
                                         <div className="row pb-4">
@@ -142,7 +145,7 @@ class Monedas extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className="container pt-5 mt-5 pb-4">
+                    <div className="container pt-5 mt-5 pb-4" data-aos="flip-down">
                         <p className="h2 fw-bold mt-5 pt-3">¿Dónde usar Hidro Monedas? __________________________________</p>
                         <p className="h4 mt-4 pt-3 pb-5 mb-5"> Úsalos como efectivo en más de 20 marcas de productos de Hidrocompras al momento de adquirirlas.</p>
                         <br />
@@ -177,8 +180,8 @@ class Monedas extends Component{
                                     <img src={Marca6} className="img-fluid" alt="Imagen Hidro" />
                                 </div>
                             </div>
-                        </div>
-                        <div className="row pt-3">
+                        </div> 
+                        <div className="row pt-3" data-aos="flip-down">
                             <div className="col-6 col-lg-2">
                                 <div className="cajaCircular">
                                     <img src={Marca7} className="img-fluid" alt="Imagen Hidro" />
@@ -211,13 +214,13 @@ class Monedas extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className="fondoColorCeleste pt-5 mt-5 pb-5">
+                    <div className="fondoColorCeleste pt-5 mt-5 pb-5" data-aos="flip-down">
                         <div className="container">
                             <div className="row">
-                                <div className="col-12 col-lg-6">
+                                <div className="col-12 col-lg-6" data-aos="flip-down">
                                     <div className="espacioApp">
                                         <p className="fs-2 text-center">Descarga la app</p>
-                                        <div className="d-flex justify-content-center pb-5">
+                                        <div className="d-flex justify-content-center pb-5" data-aos="flip-down">
                                             <div className="p-1 m-1">
                                                 <a href="#" rel="noreferrer" rel="noreferrer">
                                                     <img src={PlayStore} height="50" alt="Imagen Hidro" />

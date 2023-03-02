@@ -1,4 +1,5 @@
-import InicioPrincipal from '../src/Pages/Inicio';
+import React from "react";
+import AppRouter from '../src/Routers/AppRouters';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
@@ -8,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <InicioPrincipal />
+    <AppRouter />
   );
 }
 

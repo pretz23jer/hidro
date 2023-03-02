@@ -1,3 +1,4 @@
+import React from "react";
 import hidro2 from '../Resources/hidroa.png';
 
 function Menu(){
@@ -21,26 +22,26 @@ function Menu(){
                       <ul className="dropdown-menu format" id="ulEstilizar" aria-labelledby="listaMenu">
                         <div>
                           <li>
-                            <a className="espaciarMenu" href="/coins" rel="noreferrer">Hidro Coins</a>
+                            <a className="espaciarMenu" href="/coins" > Hidro Coins</a>
                           </li>
                           <li>
-                            <a className="espaciarMenu" href="/puntos" rel="noreferrer">Puntos</a>
+                            <a className="espaciarMenu" href="/puntos" >Puntos</a>
                           </li>
                           <li>
                             <a className="espaciarMenu" href="https://play.google.com/store/apps/" target="_blank"  rel="noopener noreferrer">Descarga la APP</a>
                           </li>
                           <li>
-                            <a className="espaciarMenu" href="/actualizar" rel="noreferrer">Actualizar Datos</a>
+                            <a className="espaciarMenu" href="/actualizar" >Actualizar Datos</a>
                           </li>
                           <li>
-                            <a className="espaciarMenu" href="/empresa" rel="noreferrer">Hidro para Empresas</a>
+                            <a className="espaciarMenu" href="/empresa" >Hidro para Empresas</a>
                           </li>
                         </div>
                       </ul>
                     </li>
                     <li className="nav-item">
                       <div className="d-flex separarLogo">
-                        <a className='navbar-brand' href="/" rel="noreferrer"><img src={hidro2} width='50' alt="Imagen Hidro" /></a>
+                        <a className='navbar-brand' href="/" ><img src={hidro2} width='50' alt="Imagen Hidro" /></a>
                       </div>
                     </li>
     

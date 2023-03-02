@@ -732,6 +732,12 @@ nav{
   font-weight: bold;
 }
 
+.fondoCelesteDemo{
+  margin-top: -15px;
+  background-color: #003cbe;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 /*MEDIA QUERYS*/
 
 @media screen and (min-width: 900px) {

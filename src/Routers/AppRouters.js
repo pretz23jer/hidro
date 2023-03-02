@@ -20,11 +20,11 @@ import Puntos from "../Pages/Puntos";
 import Actualizar from "../Pages/Actualizar";
 import Empresa from "../Pages/Empresa";
 
-const AppRouters = ()=>{
+function AppRouters() {
     return(
         <Router>
           <Routes>
-            <Route exact path="/" element={<Inicio />} />
+            <Route path="/" element={<Inicio />} />
             <Route exact path="/producto" element={<Productos />} />
             <Route exact path="/servicio" element={<Servicio />} />
             <Route exact path="/socio" element={<Socio />} />
@@ -48,4 +48,4 @@ const AppRouters = ()=>{
     )
 }
 
-export default AppRouters
+export default AppRouters;

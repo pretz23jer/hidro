@@ -19,10 +19,13 @@ import Persona2 from '../Resources/persona2.png';
 import Persona3 from '../Resources/persona3.png';
 import Celular from '../Resources/celular2.png';
 import Celular2 from '../Resources/celular3.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Home extends Component{
     render() {
         
+        AOS.init();
         let cambiarImg1 = ImgApp1;
         let cambiarImg2 = ImgApp3;
 
@@ -343,7 +346,13 @@ class Home extends Component{
                         </div>
                     </div>
                 </div>
+                <div className="fondoCelesteDemo">
+                    <div className="text-white text-center">
+                        <p className="fw-bold fs-1 h1 pt-3 pb-3">HIDROCOMPRAS &#129321;</p>
+                    </div>
+                </div>
             </div>
+            
         )
     }
 }

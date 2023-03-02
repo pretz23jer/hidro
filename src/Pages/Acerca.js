@@ -72,62 +72,6 @@ function Acerca(){
                     </div>
                 </div>
             </div>
-            <div className="pt-2" data-aos="fade-down">
-                <div className="container pb-4">
-                    <h2 className="py-3 my-2 tituloAcerca">¿Qué hacen nuestros afiliados?</h2>
-                    <div className="text-start lineaAzulSobre mb-4"></div>
-                    <div className="row">
-                        <div className="col-12 col-md-4 col-lg-4 mt-2 ">
-                            <div className="card tarjetasAcerca">
-                                <div className="card-body">
-                                    <p className="text-center letraObjeti">VISITAN A SUS PROPIOS CLIENTES</p>
-                                    <p>Tu te quedas con tus propios clientes, incluso nosotros te brindaremos oportunidades de conectar con más clientes nuevos que necesiten de tus servicios.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-4 col-lg-4 mt-2 ">
-                            <div className="card tarjetasAcerca">
-                                <div className="card-body">
-                                    <p className="text-center letraObjeti">ASESORAN BIEN A SUS CLIENTES</p>
-                                    <p>Ya que detectaste el problema hidráulico que tiene, brinda la solución hidráulica con nuestra tienda en linea y nuestra app HIDROCOMPRAS y gana comisiones con los mismos equipos que instalas.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-4 col-lg-4 mt-2">
-                            <div className="card tarjetasAcerca">
-                                <div className="card-body">
-                                    <p className="text-center letraObjeti">REFIEREN LOS EQUIPOS QUE INSTALAN</p>
-                                    <p>Nosotros haremos todo, facturamos al NIT que el cliente pida, entregamos en la dirección que el cliente indique (aplica restricciones) * tu instalas y ganas.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-6 mt-2">
-                            <div className="card acercaTexto">
-                                <div className="card-body">
-                                    <p className="text-center letraObjeti">REVISAN SU BILLETERA DIGITAL</p>
-                                    <p>Si a tu instalación le sirve cualquiera de nuestros productos para ganar comisión, haz la venta con nuestra app y podrás monitorear cuánto vas ganando por cada venta que hagas con nosotros, a finalizar cada mes, lo que tengas acumulado en comisión puedes reclamarlo en efectivo, Gift Cards de Supermercados o adquirir cualquiera de los productos de nuestra tienda en línea.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-lg-6 mt-2">
-                            <div className="card acercaTexto">
-                                <div className="card-body">
-                                    <p className="text-center letraObjeti">SE CAPACITAN Y CERTIFICAN</p>
-                                    <p>Si tus habilidades son LIMITADAS, no te preocupes, contamos con PROFESIONALES EN CADA CATEGORÍA que impartirán capacitaciones programadas de forma presencial y virtual para que vayas adquiriendo mayor conocimiento y así puedas atender a más clientes y no perder instalaciones que pueden transformarse en más comisiones para ti.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="fondoAcerca" data-aos="fade-up">
-                <div className="container my-4 py-4 ">
-                    <h2 className="pt-3 mt-2 tituloAcerca">¿Quieres unirte?</h2>
-                    <div className="text-start lineaAzulSobre mb-4"></div>
-                    <p className="">¡Estamos trabajando para revolucionar la manera en que las personas hacen sus compras hidráulicas!</p>
-                    <p className="fw-bold">Buscamos Plomeros que quieran aumentar sus ingresos haciendo lo mismo que hacen todos los dias, asesorar a sus propios clientes y usarnos como herramienta de venta para así ganar comisión de lo que recomiendan e instalan, que quieran capacitarse y certificarse para ganar más conocimiento en el área que se especializan o que quieran aprender de otra área totalmente nueva.</p>
-                </div>
-            </div>
             <div className="my-4 py-4" data-aos="fade-down">
                 <div className="container">
                     <h2 className="pt-3 mt-2 tituloAcerca">Misión, Visión, Valores</h2>
@@ -157,6 +101,11 @@ function Acerca(){
                     </div>
                 </div>
             </div>
+            <div className="fondoCelesteDemo">
+                    <div className="text-white text-center">
+                        <p className="fw-bold fs-1 h1 pt-3 pb-3">HIDROCOMPRAS <br />Tú mejor opción &#128512;</p>
+                    </div>
+                </div>
             <Footer />
         </div>
     )

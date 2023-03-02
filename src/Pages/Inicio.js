@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 import Boton from '../Layouts/Boton';
 import Menu from '../Layouts/Menu';
